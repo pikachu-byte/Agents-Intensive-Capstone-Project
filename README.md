@@ -603,7 +603,7 @@ def test_full_workflow():
 ##  Author
 
 **Your Name**
-- GitHub: [@Dnyanesh-29](https://github.com/Dnyanesh-29)
+- Dnyanesh-29
 - Email: dnyaneshbharambe2006@gmail.com
 
 ---
