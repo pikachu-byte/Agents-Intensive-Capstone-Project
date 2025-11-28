@@ -1,6 +1,6 @@
 # NutriCoach AI: Intelligent Multi-Agent Nutrition Analysis System
 
-[![Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%202.0-blue)](https://deepmind.google/technologies/gemini/)
+[![Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%202.5-blue)](https://deepmind.google/technologies/gemini/)
 [![ADK](https://img.shields.io/badge/Built%20with-ADK%20Python-green)](https://github.com/google/genai)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
@@ -115,7 +115,7 @@ User → Agent Orchestrator → [Analyst Agent + Tools] → [Coach Agent + Tools
                  ▼                               ▼
     ┌─────────────────────┐         ┌─────────────────────┐
     │  ANALYST AGENT      │         │   COACH AGENT       │
-    │  (Gemini 2.0)       │────────▶│   (Gemini 2.0)      │
+    │  (Gemini 2.5)       │────────▶│   (Gemini 2.5)      │
     │                     │         │                     │
     │  • Parse meal       │         │  • Calculate TDEE   │
     │  • Extract foods    │         │  • Compare intake   │
@@ -329,7 +329,7 @@ class AgentTrace:
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
 | Agent Framework | Google ADK Python | Agent orchestration, tool management |
-| LLM | Gemini 2.0 Flash | Fast, cost-effective reasoning |
+| LLM | Gemini 2.5 Flash | Fast, cost-effective reasoning |
 | Tools | Custom Python Functions | Database lookup, calculations |
 | Database | Pandas DataFrame | In-memory nutrition data |
 | Visualization | Rich Console | Professional terminal UI |
@@ -383,7 +383,7 @@ except Exception as e:
 
 Initializing ADK System...
 ✓ ADK Client initialized
-✓ Model: gemini-2.0-flash-exp
+✓ Model: gemini-2.5-flash
 ✓ Tools registered: 2
 
 ┌─ User Profile ─────────────────────────────────────────────────────┐
