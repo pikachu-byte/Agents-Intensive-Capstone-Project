@@ -2,7 +2,6 @@
 
 [![Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%202.5-blue)](https://deepmind.google/technologies/gemini/)
 [![ADK](https://img.shields.io/badge/Built%20with-ADK%20Python-green)](https://github.com/google/genai)
-[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 > **A production-grade multi-agent system leveraging Google's Agent Development Kit (ADK) to provide personalized nutrition analysis and coaching through intelligent agent orchestration.**
 
